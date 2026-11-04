@@ -1,0 +1,528 @@
+```html
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description"  content="Topkapı: dinastía, gobierno, nobleza y harén imperial."  >
+
+  <title>Topkapı — Sultanato de Osamu I</title>
+
+  <link rel="preconnect"  href="https://fonts.googleapis.com">
+  <link rel="preconnect"  href="https://fonts.gstatic.com"  crossorigin>
+  <link  rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVEGACIÓN PRINCIPAL -->
+  <header class="navbar">
+
+    <a class="logo" href="#inicio">
+      TOPKAPI <span>✦</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#historia">Imperio</a></li>
+        <li><a href="#dinastia">Dinastía</a></li>
+        <li><a href="#gobierno">Gobierno</a></li>
+        <li><a href="#harem">Harén</a></li>
+        <li><a href="#administracion">Palacio</a></li>
+        <li><a href="#nobleza">Nobleza</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <div class="hero-content reveal">
+        
+        <p class="eyebrow">
+          Only Haikyuu!! · Ottoman Dynasty
+        </p>
+
+        <h1>
+          Topkapı<br>
+          <em>Palace</em>
+        </h1>
+
+        <p class="hero-copy">
+          Entre sus muros, el favor del sultán puede elevar
+          a una casa o condenarla al olvido; 
+          las alianzas se negocian, las rivalidades se heredan
+          y ninguna sonrisa está libre de intención. 
+        </p>
+          <p class="hero-copy">
+          Ascender exige saber a quien acercarse, a quien temer
+          y de quien prescindir.
+        </p>
+
+        <a class="button" href="#dinastia">
+          Dinastía
+        </a>
+
+        <div class="hero-note">
+          AMBICIÓN · PERSPICACIA · LEGADO
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- IMPERIO -->
+    <section class="section history" id="historia">
+
+      <div class="history-image reveal">
+        <img
+          src="images/historia-topkapi.jpg"
+          alt="Palacio de inspiración otomana"
+          onerror="this.classList.add('missing-image')"
+        >
+      </div>
+
+      <div class="history-copy reveal">
+
+        <p class="eyebrow">
+          El orden de una corte, el peso de una alianza.
+        </p>
+
+        <h2>
+          Tras las puertas del poder.
+        </h2>
+
+        <div class="ornament">
+          ✦ ✦ ✦
+        </div>
+
+        <p>
+          El sultanato se sostiene sobre un delicado equilibrio entre el linaje, la autoridad y los
+          intereses que convergen dentro del palacio, donde cada integrante ocupa un lugar cuya importancia
+          trasciende el título que ostenta. Desde la familia imperial, cuyas decisiones comprometen la
+          continuidad de la dinastía, hasta las consortes, los dignatarios, las casas nobles y quienes administran
+          las residencias imperiales: todos forman parte de una estructura en la que los vínculos personales
+          pueden adquirir un significado político y las alianzas determinar el rumbo de la corte, pues ningún
+          rango existe de manera aislada ni ninguna posición permanece ajena a las relaciones que la sostienen.
+        </p>
+
+        <p>
+          En Topkapı, el poder no pertenece únicamente a quien ocupa el trono, sino que también se manifiesta
+          en la influencia de una casa, la confianza depositada en un servidor, la autoridad de un cargo y los
+          lazos que unen o enfrentan a quienes comparten sus muros, un matrimonio puede afianzar la posición de
+          una familia, una lealtad puede preservar su lugar y una decisión tomada en privado puede alterar el
+          equilibrio de toda la corte
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section class="stats">
+
+      <div>
+        <strong>01</strong>
+        <span>El Trono</span>
+      </div>
+
+      <div>
+        <strong>∞</strong>
+        <span>La Corte</span>
+      </div>
+
+      <div>
+        <strong>✦</strong>
+        <span>Alianzas y legado</span>
+      </div>
+
+    </section>
+
+    <!-- DINASTÍA IMPERIAL -->
+    <section class="section" id="dinastia">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Dinastía Miya - La sangre que sostiene el trono.
+        </p>
+
+        <h2>
+          Osmanlı Hanedanı
+        </h2>
+
+        <p>
+          Constituye el núcleo del poder imperial, con el sultán como soberano y la familia dinástica
+          como garante de la continuidad del linaje, la legitimidad del gobierno y la preservación de
+          la corona; sus miembros poseen una posición determinada por el nacimiento, los vínculos 
+          familiares y las responsabilidades que acompañan a su rango, mientras sus decisiones 
+          repercuten más allá de sus propias residencias. En una corte donde la sucesión, los 
+          matrimonios y la lealtad adquieren relevancia política, pertenecer a la dinastía significa
+          participar de un legado que debe conservarse incluso cuando los intereses personales amenazan
+          con dividirlo.
+        </p>
+
+      </div>
+
+      <!-- BUSCADOR -->
+      <div class="search-panel">
+
+        <label for="searchCharacters">
+          Registro de la Corte
+        </label>
+
+        <div class="search-controls">
+
+          <input
+            id="searchCharacters"
+            type="search"
+            placeholder="Nombre, título, casta o aroma…"
+            aria-label="Buscar personajes"
+          >
+
+          <button id="clearSearch" type="button">
+            Limpiar
+          </button>
+
+        </div>
+
+        <div
+          id="searchResults"
+          class="search-results"
+          aria-live="polite"
+        ></div>
+
+      </div>
+
+      <div class="integrated-heading reveal">
+        <p class="eyebrow">Linaje y precedencia</p>
+        <h3>La casa imperial</h3>
+        <p>El esquema reúne a los integrantes por su vínculo con la dinastía. Cada retrato abre la ficha correspondiente.</p>
+      </div>
+      <div id="dynastyDiagram" class="hierarchy-diagram integrated-diagram"></div>
+
+      <!-- Los registros se generan desde el catálogo único de personajes. -->
+      <div
+        id="dynastyGroups"
+        class="grouped-sections"
+      ></div>
+
+    </section>
+
+    <!-- GOBIERNO IMPERIAL -->
+    <section class="section court-section" id="gobierno">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Dîvân-ı Hümâyun
+        </p>
+
+        <h2>
+          Gobierno imperial
+        </h2>
+
+        <p>
+        Constituye el órgano encargado de conducir los asuntos del Estado bajo la autoridad suprema del sultán,
+        la autoridad no se limita a la concesión de títulos ni a la presencia del soberano en el trono, sino que
+        se materializa en las decisiones que determinan la administración de los territorios, la seguridad del
+        Estado, las relaciones con las casas de influencia y el cumplimiento de las disposiciones imperiales
+        </p>
+
+      </div>
+
+      <div
+        id="governmentDiagram"
+        class="hierarchy-diagram"
+      ></div>
+
+      <div
+        class="office-grid"
+        id="officeGrid"
+      ></div>
+
+    </section>
+
+    <!-- HARÉN IMPERIAL -->
+    <section class="section" id="harem">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Harem-i Hümâyun
+        </p>
+
+        <h2>
+          Harén imperial
+        </h2>
+
+        <p>
+        Conocido históricamente como Harem-i Hümâyun, constituye uno de los espacios más reservados del palacio
+        otomano, vinculado a la casa privada del sultán y a la organización de las residencias de las mujeres
+        de la dinastía, las consortes y el personal que sirve en ellas; su estructura se rige por una jerarquía
+        de rangos, responsabilidades y privilegios que determina tanto la vida cotidiana como las relaciones 
+        entre sus integrantes.
+        </p>
+
+      </div>
+
+      <div
+        id="haremDiagram"
+        class="hierarchy-diagram"
+      ></div>
+
+      <div
+        id="haremPositions"
+        class="position-list"
+      ></div>
+
+    </section>
+
+    <!-- ADMINISTRACIÓN IMPERIAL -->
+    <section
+      class="section court-section"
+      id="administracion"
+    >
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Hizmet-i Saray
+        </p>
+
+        <h2>
+          Administración del Palacio
+        </h2>
+
+        <p>
+          La administración palaciega comprende los cargos y servicios encargados de organizar la vida
+          cotidiana del palacio, atender las residencias imperiales, supervisar al personal, custodiar los 
+          espacios de acceso restringido y garantizar el cumplimiento del protocolo; sus responsables actúan 
+          bajo una jerarquía definida por el rango, la experiencia y la confianza depositada en cada oficio, 
+          puesto que, el funcionamiento de la corte depende tanto de las decisiones del soberano como de quienes 
+          ejecutan sus disposiciones y mantienen el orden en sus dependencias.
+        </p>
+
+      </div>
+
+      <div
+        id="administrationDiagram"
+        class="hierarchy-diagram"
+      ></div>
+
+      <div
+        id="administrationGrid"
+        class="office-grid"
+      ></div>
+
+      <div class="section-heading reveal" style="margin-top: 4rem;">
+        <p class="eyebrow">Personal del palacio</p>
+        <h3>Servidores imperiales</h3>
+        <p>
+         Hombres encargados de cumplir funciones específicas dentro de la
+         administración y la protección de la casa imperial, cuyas
+         responsabilidades y atribuciones dependen del cargo que desempeñan.
+         Sus retratos y fichas se consultan desde el oficio que tienen asignado.
+         </p>
+        </div>
+
+
+    </section>
+
+    <!-- NOBLEZA Y CASAS -->
+    <section class="section" id="nobleza">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Ümerâ ve Eşraf
+        </p>
+
+        <h2>
+          Casas Nobles
+        </h2>
+
+        <p>
+          Conforman una parte esencial del entramado político y territorial del Imperio. 
+          Encabezadas por señores y dignatarios cuyo rango, patrimonio, servicio y relaciones determinan su 
+          posición ante la corte, sus integrantes mantienen vínculos con la dinastía y entre sí mediante
+          matrimonios, descendencia, compromisos y acuerdos que pueden fortalecer sus dominios o modificar el
+          equilibrio de sus intereses; aunque su autoridad no equivale a la del soberano ni concede 
+          automáticamente un cargo en el gobierno, cada casa procura preservar su prestigio, proteger a sus 
+          miembros y asegurar su continuidad, consciente de que la cercanía al poder ofrece oportunidades, 
+          pero también exige lealtades y expone a las consecuencias de cualquier disputa.
+        </p>
+
+      </div>
+
+      <div
+        id="nobilityDiagram"
+        class="hierarchy-diagram"
+      ></div>
+
+      <div
+        id="nobilityGroups"
+        class="grouped-sections"
+      ></div>
+
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section gallery-section" id="galeria">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          Memoria del Palacio
+        </p>
+
+        <h2>
+          La galería
+        </h2>
+
+        <p>
+          Retratos y escenas que guardan la memoria de la corte.
+        </p>
+
+      </div>
+
+      <div class="gallery">
+
+        <figure>
+          <img
+            src="images/arte-01.jpg"
+            alt="Pintura clásica"
+            onerror="this.classList.add('missing-image')"
+          >
+          <figcaption>El peso de la corona</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/arte-02.jpg"
+            alt="Pintura clásica"
+            onerror="this.classList.add('missing-image')"
+          >
+          <figcaption>Entre sombras</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/arte-03.jpg"
+            alt="Jardines palaciegos"
+            onerror="this.classList.add('missing-image')"
+          >
+          <figcaption>Los jardines del palacio</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/arte-04.jpg"
+            alt="Salón imperial"
+            onerror="this.classList.add('missing-image')"
+          >
+          <figcaption>El precio de la lealtad</figcaption>
+        </figure>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+
+    <p class="eyebrow">
+      Corte Imperial
+    </p>
+
+    <h2>
+      Topkapı Palace
+    </h2>
+
+    <p>
+      Universo de Rol · Inspiración Otomana
+    </p>
+
+    <p class="footer-small">
+      effie property
+    </p>
+
+  </footer>
+
+  <!-- VENTANA DE FICHA PERSONAL -->
+  <dialog id="profileDialog" class="profile-dialog">
+
+    <button
+      class="dialog-close"
+      id="dialogClose"
+      aria-label="Cerrar"
+    >
+      ×
+    </button>
+
+    <p class="eyebrow" id="dialogGroup"></p>
+
+    <h2 id="dialogName"></h2>
+
+    <p class="dialog-rank" id="dialogRank"></p>
+
+    <div
+      class="profile-meta"
+      id="dialogMeta"
+    ></div>
+
+    <div class="profile-divider">
+      ✦
+    </div>
+
+    <div
+      class="profile-body"
+      id="dialogBody"
+    ></div>
+
+    <section class="profile-connections">
+
+      <h3>
+        Vínculos
+      </h3>
+
+      <div
+        id="dialogRelations"
+        class="profile-relations"
+      ></div>
+
+    </section>
+
+    <p
+      class="profile-note"
+      id="dialogNote"
+    ></p>
+
+  </dialog>
+
+  <!-- JAVASCRIPT PRINCIPAL -->
+  <script
+    type="module"
+    src="js/app.js"
+  ></script>
+
+</body>
+</html>
+```

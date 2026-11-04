@@ -1,0 +1,1 @@
+Coloca aquí los retratos y fondos con los nombres indicados en README.md. Si un archivo no existe, el sitio mostrará un marcador de retrato pendiente.
