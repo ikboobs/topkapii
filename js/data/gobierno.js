@@ -25,11 +25,5 @@ export default {
       "holder": "Vacante",
       "purpose": "Atiende asuntos judiciales y supervisa la administración de justicia."
     },
-    {
-      "name": "Nişancı",
-      "translation": "Cancillería imperial",
-      "holder": "Vacante",
-      "purpose": "Formaliza decretos y custodia la documentación oficial y los sellos."
-    }
   ]
 };
